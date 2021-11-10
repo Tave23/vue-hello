@@ -6,15 +6,18 @@ const app = new Vue({
    data: {
      nomeCalc1: '',
      imageCalc1: 'img/Ronaldo.jpeg',
+     risposta1: 'ronaldo',
      nomeCalc2: '',
      imageCalc2: 'img/messi.jpeg',
+     risposta2: 'messi',
      nomeCalc3: '',
      imageCalc3: 'img/lautaro.jpeg',
+     risposta3: 'lautaro',
    },
 
    // dentro methods inserisco tutte le funzioni del caso
-   methods:{
-     
+   methods: {
+
       
    }
  

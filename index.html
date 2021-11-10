@@ -16,20 +16,18 @@
 <!-- IMMAGINE 1 -->
 <!-- *********** -->
 
-     <div class="container m mt-5 mb-2">
-<!-- dentro alle 4 graffe ci si mette il nome della variabile, html poi ci stampa il valore automaticamente -->
-         <h1> Calciatore numero 1: {{nomeCalc1}}</h1>
+         <div class="container m mt-5 mb-2 d-">
+   <!-- dentro alle 4 graffe ci si mette il nome della variabile, html poi ci stampa il valore automaticamente -->
+            <h1> Calciatore numero 1: {{nomeCalc1}}</h1>
 
+            <input v-model="nomeCalc1" type="text" placeholder="inserisci il nome del calciatore qui sotto">
+         </div>
+   <!-- stampo un immagine -->
+         <div class="container immagini">
 
-         <input v-model="nomeCalc1" type="text" placeholder="inserisci il nome del calciatore qui sotto">
-      
-      </div>
-<!-- stampo un immagine -->
-      <div class="container immagini">
+            <img v-bind:src="imageCalc1"alt="" class="my-3">
 
-         <img v-bind:src="imageCalc1"alt="" class="my-3">
-
-      </div> 
+         </div> 
 
 <!-- *********** -->
 <!-- IMMAGINE 2 -->
