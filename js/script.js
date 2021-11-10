@@ -4,8 +4,12 @@ const app = new Vue({
    el: '#app',
    // in data inserisco tutte le variabili e/o costanti
    data: {
-     nomeUtente: 'Davide',
-     imageRonaldo: 'img/Ronaldo.jpeg'
+     nomeCalc1: '',
+     imageCalc1: 'img/Ronaldo.jpeg',
+     nomeCalc2: '',
+     imageCalc2: 'img/messi.jpeg',
+     nomeCalc3: '',
+     imageCalc3: 'img/lautaro.jpeg',
    },
 
    // dentro methods inserisco tutte le funzioni del caso
